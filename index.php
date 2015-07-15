@@ -11,7 +11,7 @@ and open the template in the editor.
     </head>
     <body>
         <?php
-         $url = parse_url(getenv(" CLEARDB_DATABASE_URL "));
+         $url = parse_url(getenv("CLEARDB_DATABASE_URL "));
         $server = $url ["us-cdbr-iron-east-02.cleardb.net"];
         $username = $url ["be505b883b85da"];
         $password = $url ["b22b5198"];
