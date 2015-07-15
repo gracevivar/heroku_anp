@@ -1,21 +1,10 @@
-<!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title></title>
-    </head>
-    <body>
         <?php
-         $url = parse_url(getenv("CLEARDB_DATABASE_URL "));
-        $server = $url ["us-cdbr-iron-east-02.cleardb.net"];
-        $username = $url ["be505b883b85da"];
-        $password = $url ["b22b5198"];
-        $db = substr($url ["heroku_a6c93f827357fde"], 1);
+        error_reporting(0);
+//         $url = parse_url(getenv("CLEARDB_DATABASE_URL "));
+        $server = "us-cdbr-iron-east-02.cleardb.net";
+        $username = "be505b883b85da";
+        $password = "b22b5198";
+        $db = substr("heroku_a6c93f827357fde", 1);
         $conn = new mysqli($server, $username, $password, $db);
 
 
@@ -27,6 +16,7 @@ and open the template in the editor.
             die($conn->error);
         $num_rows = $result->num_rows;
 
+        echo '<meta charset="UTF-8">';
         echo '<center>';
         echo'<table>';
         echo'<tr>';
@@ -50,7 +40,4 @@ and open the template in the editor.
         $result->close();
         $conn->close();
         ?>
-        ?>
 
-    </body>
-</html>
