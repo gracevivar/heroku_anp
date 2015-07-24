@@ -21,26 +21,9 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>TURISMO EN ECUADOR</title>
-
-    <!-- Bootstrap core CSS 
-    Hay que cambiar y descargar las librerias -->
+    <title>Famarxis</title>
     <link href="js/bootstrap2.min.css" rel="stylesheet">
-
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script src="./Carousel Template for Bootstrap_files/ie-emulation-modes-warning.js"></script>
-
-
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-    <!-- Custom styles for this template
-    Hay que cambiar y descargar las librerias -->
     <link href="js/carousel.css" rel="stylesheet">
   </head>
 <!-- NAVBAR
@@ -58,37 +41,13 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="http://www.turismo.gob.ec/">TURISMO EN ECUADOR</a>
+                <a class="navbar-brand" href="index.php">INICIO</a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
-
-
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">LUGARES <span class="caret"></span></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="#"></a></li>
-                    <li><a href="http://getbootstrap.com/examples/carousel/#">Lugar 1</a></li>
-                    <li><a href="http://getbootstrap.com/examples/carousel/#">Lugar 2</a></li>
-                    <li><a href="http://getbootstrap.com/examples/carousel/#">Lugar 3</a></li>
-                    <li><a href="http://getbootstrap.com/examples/carousel/#">Lugar 4</a></li>
-                    <li><a href="http://getbootstrap.com/examples/carousel/#">Lugar 5</a></li>
-
-
-                    <li role="separator" class="divider"></li>
-                    <li class="dropdown-header">Otras opciones</li>
-                    <li><a href="http://getbootstrap.com/examples/carousel/#">Opcion 1</a></li>
-                    <li><a href="http://getbootstrap.com/examples/carousel/#">Opcion 2</a></li>
-                  </ul>
-                </li>
-
-
-
-
-
-                <li><a href="file:///C:/xampp/htdocs/turismoecuador/turismoecuador.html">Home</a></li>
-                <li><a href="http://getbootstrap.com/examples/carousel/#about">Acerca de Ecuador</a></li>
-                <li><a href="http://getbootstrap.com/examples/carousel/#contact">Costumbres</a></li>
+                <li><a href="file:///C:/xampp/htdocs/turismoecuador/turismoecuador.html">Quienes Somos</a></li>
+                <li><a href="http://getbootstrap.com/examples/carousel/#about">Catalogo</a></li>
+                <li><a href="http://getbootstrap.com/examples/carousel/#contact">Comprar</a></li>
                 
               </ul>
             </div>
@@ -118,8 +77,6 @@
           <img class="first-slide" src="img/1.jpg" alt="First slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Example headline.</h1>
-              <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
               <p><a class="btn btn-lg btn-primary" href="myCarousel" role="button">Sign up today</a></p>
             </div>
           </div>
@@ -129,8 +86,6 @@
           <img class="second-slide" src="img/2.jpg" alt="Second slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Another example headline.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
               <p><a class="btn btn-lg btn-primary" href="turismoecuador.html" role="button">Learn more</a></p>
             </div>
           </div>
@@ -140,8 +95,6 @@
           <img class="second-slide" src="img/3.jpg" alt="Second slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Another example headline.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
               <p><a class="btn btn-lg btn-primary" href="turismoecuador.html" role="button">Learn more</a></p>
             </div>
           </div>
@@ -151,8 +104,6 @@
           <img class="second-slide" src="img/4.jpg" alt="Second slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Another example headline.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
               <p><a class="btn btn-lg btn-primary" href="turismoecuador.html" role="button">Learn more</a></p>
             </div>
           </div>
@@ -162,8 +113,6 @@
           <img class="second-slide" src="img/5.jpg" alt="Second slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Another example headline.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
               <p><a class="btn btn-lg btn-primary" href="turismoecuador.html" role="button">Learn more</a></p>
             </div>
           </div>
@@ -174,8 +123,6 @@
           <img class="third-slide" src="img/6.jpg" alt="Third slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>One more for good measure.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
               <p><a class="btn btn-lg btn-primary" href="#myCarousel" role="button">Browse gallery</a></p>
             </div>
           </div>
