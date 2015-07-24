@@ -45,9 +45,9 @@
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
-                <li><a href="file:///C:/xampp/htdocs/turismoecuador/turismoecuador.html">Quienes Somos</a></li>
-                <li><a href="http://getbootstrap.com/examples/carousel/#about">Catalogo</a></li>
-                <li><a href="http://getbootstrap.com/examples/carousel/#contact">Comprar</a></li>
+                  <li><a href="quienes.php">Quienes Somos</a></li>
+                  <li><a href="catalogo.php">Catalogo</a></li>
+                  <li><a href="login.php">Comprar</a></li>
                 
               </ul>
             </div>
@@ -72,7 +72,7 @@
         <li data-target="#myCarousel" data-slide-to="6" class=""></li>
       </ol>
 
-      <div class="carousel-inner" role="listbox">
+      <div class="carousel-inner imagej" role="listbox">
         <div class="item">
           <img class="first-slide" src="img/1.jpg" alt="First slide">
           <div class="container">
