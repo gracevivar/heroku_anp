@@ -22,9 +22,9 @@ echo'Login'
             <label>Elija tipo de perfil</label>
             <br>
             <select id='perfil'>
-                <option value="cliente">Cliente</option>
-                <option value="empleado">Empleado</option>
-                <option value="administrador">Administrador</option>
+                <option value="1">Empleado</option>
+                <option value="2">Administrador</option>
+                <option value="3">Cliente</option>
             </select>
             <br>
             <a href="registro.php" >Registrar Nuevo Usuario</a>
