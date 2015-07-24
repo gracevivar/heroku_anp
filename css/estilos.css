@@ -3,5 +3,10 @@
     height: 600px;
     margin: auto;
 }
+.error{
+    background-color: #D50909;
+    color: #FFF;
+    padding: 5px;
+}
 
 
