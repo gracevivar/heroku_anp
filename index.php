@@ -75,45 +75,35 @@ else
                 <div class="item">
                     <img class="first-slide" src="img/1.jpg" alt="First slide">
                     <div class="container">
-                        <div class="carousel-caption">
-                            <p><a class="btn btn-lg btn-primary" href="myCarousel" role="button">Sign up today</a></p>
-                        </div>
+                        <div class="carousel-caption"></div>
                     </div>
                 </div>
 
                 <div class="item">
                     <img class="second-slide" src="img/2.jpg" alt="Second slide">
                     <div class="container">
-                        <div class="carousel-caption">
-                            <p><a class="btn btn-lg btn-primary" href="turismoecuador.html" role="button">Learn more</a></p>
-                        </div>
+                        <div class="carousel-caption"></div>
                     </div>
                 </div>
 
                 <div class="item">
                     <img class="second-slide" src="img/3.jpg" alt="Second slide">
                     <div class="container">
-                        <div class="carousel-caption">
-                            <p><a class="btn btn-lg btn-primary" href="turismoecuador.html" role="button">Learn more</a></p>
-                        </div>
+                        <div class="carousel-caption"></div>
                     </div>
                 </div>
 
                 <div class="item">
                     <img class="second-slide" src="img/4.jpg" alt="Second slide">
                     <div class="container">
-                        <div class="carousel-caption">
-                            <p><a class="btn btn-lg btn-primary" href="turismoecuador.html" role="button">Learn more</a></p>
-                        </div>
+                        <div class="carousel-caption"></div>
                     </div>
                 </div>
 
                 <div class="item">
                     <img class="second-slide" src="img/5.jpg" alt="Second slide">
                     <div class="container">
-                        <div class="carousel-caption">
-                            <p><a class="btn btn-lg btn-primary" href="turismoecuador.html" role="button">Learn more</a></p>
-                        </div>
+                        <div class="carousel-caption"></div>
                     </div>
                 </div>
 
@@ -121,16 +111,10 @@ else
                 <div class="item active">
                     <img class="third-slide" src="img/6.jpg" alt="Third slide">
                     <div class="container">
-                        <div class="carousel-caption">
-                            <p><a class="btn btn-lg btn-primary" href="#myCarousel" role="button">Browse gallery</a></p>
-                        </div>
+                        <div class="carousel-caption"></div>
                     </div>
                 </div>
             </div>
-
-
-
-
 
             <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
                 <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
@@ -160,7 +144,7 @@ else
                 <div class="col-lg-4">
                     <img class="img-circle" src="img/c3.jpg" width="140" height="140">
                     <h2>Servicio de Calidad</h2>
-                    <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+                    <p>Ven y disfruta de nuestros servicio de internet y calidad con nosotros </p>
                 </div><!-- /.col-lg-4 -->
             </div><!-- /.row -->
 
@@ -183,7 +167,7 @@ else
 
             <div class="row featurette">
                 <div class="col-md-7">
-                    <h2 class="featurette-heading">ls mejor calidad<span class="text-muted">Checkmate.</span></h2>
+                    <h2 class="featurette-heading">La mejor calidad</h2>
                     <p class="lead">La satisfacion del cliente es lo importante</p>
                 </div>
             </div>
@@ -201,4 +185,5 @@ else
         <script src="./Carousel Template for Bootstrap_files/ie10-viewport-bug-workaround.js"></script>
 
 
-    </body></html>
+    </body>
+</html>
