@@ -88,21 +88,21 @@ else
                 </div>
 
                 <div class="item">
-                    <img class="second-slide" src="img/3.jpg" alt="Second slide">
+                    <img class="second-slide" src="img/3.jpg" alt="third slide">
                     <div class="container">
                         <div class="carousel-caption"></div>
                     </div>
                 </div>
 
                 <div class="item">
-                    <img class="second-slide" src="img/4.jpg" alt="Second slide">
+                    <img class="second-slide" src="img/4.jpg" alt="fourth slide">
                     <div class="container">
                         <div class="carousel-caption"></div>
                     </div>
                 </div>
 
                 <div class="item">
-                    <img class="second-slide" src="img/5.jpg" alt="Second slide">
+                    <img class="second-slide" src="img/5.jpg" alt="fifth slide">
                     <div class="container">
                         <div class="carousel-caption"></div>
                     </div>
@@ -110,7 +110,7 @@ else
 
 
                 <div class="item active">
-                    <img class="third-slide" src="img/6.jpg" alt="Third slide">
+                    <img class="third-slide" src="img/6.jpg" alt="sixth slide">
                     <div class="container">
                         <div class="carousel-caption"></div>
                     </div>
@@ -119,11 +119,11 @@ else
 
             <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
                 <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
+                <span class="sr-only">Anterior</span>
             </a>
             <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
                 <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
+                <span class="sr-only">siguiente</span>
             </a>
         </div><!-- /.carousel -->
 

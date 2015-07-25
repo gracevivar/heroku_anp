@@ -6,24 +6,45 @@ echo'Somos'
         <title>QuineSomos</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <link href="js/bootstrap2.min.css" rel="stylesheet">
         <link href="css/estilos.css" rel="stylesheet">
     </head>
     <body>
         <h1><center>Farmaxis</center></h1>
-        <div>
-            <p>
-            <h2>Misión</h2>
-            <br><br>Somos una Cadena de Farmacias que satisface las necesidades 
-            <br>de nuestros clientes ofreciendo medicamentos, productos y 
-            <br>servicios para el cuidadointegral de la salud, y productos
-            <br>de conveniencia relacionados con farmacias.
-            </p>
+        <div class="container marketing">
+            <div class="row let">
+                <div class="col-lg-6">
+                    <p>
+                    <h2>Misión</h2>
+                    <br><br>Somos una Cadena de Farmacias que satisface las necesidades 
+                    <br>de nuestros clientes ofreciendo medicamentos, productos y 
+                    <br>servicios para el cuidadointegral de la salud, y productos
+                    <br>de conveniencia relacionados con farmacias.
+                    </p>  
+                </div>
+                <div class="col-lg-6">
+                    <img class="img-circle" src="img/mision.JPG" alt="Generic placeholder image" width="140" height="140">
+                </div>
+            </div>
         </div>
         <div>
-            <p>
-            <h2>Vision</h2>
-            <br>Seremos la cadena de farmacias que ofrece la mejor experiencia de compra en farmacia.
-            </p>
+            <div class="container marketing">
+                <div class="row let">
+                    <div class="col-lg-6">
+                        <p>
+                        <h2>Vision</h2>
+                        <br>Seremos la cadena de farmacias que ofrece la mejor experiencia de compra en farmacia.
+                        </p>
+                    </div> 
+                    <div class="col-lg-6">
+                        <img class="img-circle" src="img/vision.JPG" alt="Generic placeholder image" width="140" height="140">
+                    </div>
+                </div>
+            </div>
         </div>
         <div>
             <p>
