@@ -1,5 +1,4 @@
 <?php
-
 echo'cataloho principal'
 ?>
 <html>
@@ -7,6 +6,7 @@ echo'cataloho principal'
         <title>Catalogo</title>
     </head>
     <body>
+        
         <a href="index.php">Regresar</a>
     </body>
 </html>
