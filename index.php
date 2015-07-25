@@ -32,8 +32,8 @@ else
         <div class="navbar-wrapper">
             <div class="container">
 
-                <nav class="navbar navbar-inverse navbar-static-top botu">
-                    <div class="container">
+                <nav class="navbar navbar-inverse navbar-static-top">
+                    <div class="container  botu">
                         <div class="navbar-header">
                             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                                 <span class="sr-only">Navegacion</span>

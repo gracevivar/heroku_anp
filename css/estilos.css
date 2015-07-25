@@ -1,19 +1,18 @@
 body{
     background-image:url(f.jpg);
 }
-
-
 .carousel{
-    width: 928px;
+/*    width: 928px;
     height: 600px;
-    margin: auto;
+    margin: auto;*/
 }
 .error{
     background-color: #D50909;
     color: #FFF;
     padding: 5px;
 }
-.botu{
+
+.container  botu{
     background-color: #255625;
     color: #FFF;
 }
