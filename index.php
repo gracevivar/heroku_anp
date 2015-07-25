@@ -24,6 +24,7 @@ else
         <link href="js/bootstrap2.min.css" rel="stylesheet">
         <script src="./Carousel Template for Bootstrap_files/ie-emulation-modes-warning.js"></script>
         <link href="js/carousel.css" rel="stylesheet">
+        <link href="css/estilos.css" rel="stylesheet">
     </head>
     <!-- NAVBAR
     ================================================== -->
@@ -155,8 +156,9 @@ else
 
             <div class="row featurette">
                 <div class="col-md-7">
-                    <h2 class="featurette-heading">Productos<span class="text-muted">Los mejores precios</span></h2>
-                    <p class="lead">Digestivos, Aalgesicos, vitaminas</p>
+                    <h2 class="featurette-heading">Productos</h2>
+                    <p class="lead">Los mejores precios
+                        <br>Digestivos, Aalgesicos, vitaminas</p>
                 </div>
                 <div class="col-md-5">
                     <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
