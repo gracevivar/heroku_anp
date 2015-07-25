@@ -1,10 +1,10 @@
 <?php
 error_reporting(0);
 //         $url = parse_url(getenv("CLEARDB_DATABASE_URL "));
-        $server = "us-cdbr-iron-east-02.cleardb.net";
-        $username = "b67c482eab4854";
-        $password = "c79d499e";
-        $db = "heroku_5da25e9f877d6fc";
+$server = "us-cdbr-iron-east-02.cleardb.net";
+$username = "b67c482eab4854";
+$password = "c79d499e";
+$db = "heroku_5da25e9f877d6fc";
 $conn = new mysqli($server, $username, $password, $db);
 if ($conn->connect_error)
     die($conn->connect_error);
@@ -17,7 +17,6 @@ else
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
         <meta name="description" content="">
         <meta name="author" content="">
 
@@ -32,7 +31,7 @@ else
         <div class="navbar-wrapper">
             <div class="container">
 
-                <nav class="navbar navbar-inverse navbar-static-top">
+                <nav class="navbar navbar-inverse navbar-static-top botu">
                     <div class="container">
                         <div class="navbar-header">
                             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -172,22 +171,10 @@ else
 
             <div class="row featurette">
                 <div class="col-md-7">
-                    <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                    <h2 class="featurette-heading">Productos<span class="text-muted">Los mejores precios</span></h2>
+                    <p class="lead">Digestivos, Aalgesicos, vitaminas</p>
                 </div>
                 <div class="col-md-5">
-                    <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-                </div>
-            </div>
-
-            <hr class="featurette-divider">
-
-            <div class="row featurette">
-                <div class="col-md-7 col-md-push-5">
-                    <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-                </div>
-                <div class="col-md-5 col-md-pull-7">
                     <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
                 </div>
             </div>
@@ -196,37 +183,21 @@ else
 
             <div class="row featurette">
                 <div class="col-md-7">
-                    <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-                </div>
-                <div class="col-md-5">
-                    <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+                    <h2 class="featurette-heading">ls mejor calidad<span class="text-muted">Checkmate.</span></h2>
+                    <p class="lead">La satisfacion del cliente es lo importante</p>
                 </div>
             </div>
 
             <hr class="featurette-divider">
-
-            <!-- /END THE FEATURETTES -->
-
-
-            <!-- FOOTER -->
             <footer>
                 <p class="pull-right"><a href="https://www.facebook.com/asi.esfotepn?fref=ts">ASI-EPN</a></p>
-                <p>2015 ESFOT-ASI. · <a href="http://esfot.epn.edu.ec/esfot30/">ESFOT</a> · <a href="http://www.epn.edu.ec/">EPN</a></p>
+                <p>Farmaxis. · <a href="http://esfot.epn.edu.ec/esfot30/">ESFOT</a> · <a href="http://www.epn.edu.ec/">EPN</a></p>
             </footer>
 
         </div><!-- /.container -->
 
-
-        <!-- Bootstrap core JavaScript
-        ================================================== -->
-        <!-- Placed at the end of the document so the pages load faster -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="js/bootstrap.js"></script>
-        <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
-
-        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
         <script src="./Carousel Template for Bootstrap_files/ie10-viewport-bug-workaround.js"></script>
 
 
