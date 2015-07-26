@@ -14,7 +14,10 @@ echo'Somos'
         <link href="css/estilos.css" rel="stylesheet">
     </head>
     <body>
-        <h1 class="letra"><center>Farmaxis</center></h1>
+        <h1 class="tit"><center>Farmaxis</center></h1>
+        <hr class="featurette-divider">
+        <hr class="featurette-divider">
+        <br>
         <div class="container marketing">
             <div class="row let">
                 <div class="col-lg-6">
@@ -31,6 +34,9 @@ echo'Somos'
                 </div>
             </div>
         </div>
+        <br>
+        <hr class="featurette-divider">
+        <br>
         <div>
             <div class="container marketing">
                 <div class="row let">
@@ -46,6 +52,9 @@ echo'Somos'
                 </div>
             </div>
         </div>
+        <br>
+        <hr class="featurette-divider">
+        <br>
         <div>
             <div class="container marketing">
                 <div class="row let">
@@ -59,11 +68,15 @@ echo'Somos'
                         </p>
                     </div>
                     <div class="col-lg-6">
-                        <img class="img-circle" src="img/vision.JPG" alt="Generic placeholder image" width="240" height="240">
+                        <img class="img-circle" src="img/valores" alt="Generic placeholder image" width="240" height="240">
                     </div>
                 </div>
             </div>
         </div>
+        <br>
+        <br>
+        <hr class="featurette-divider">
+        <br>
         <div>
             <div class="container marketing">
                 <div class="row let">
@@ -77,7 +90,7 @@ echo'Somos'
                         </p>
                     </div>
                     <div class="col-lg-4">
-                        <img class="img-circle" src="img/vision.JPG" alt="Generic placeholder image" width="160" height="160">
+                        <img class="img-circle" src="img/val1.jpg" alt="Generic placeholder image" width="160" height="160">
                     </div>
                     <div class="col-lg-4">
                         <p class="letra">
@@ -89,6 +102,10 @@ echo'Somos'
                     </div>
                 </div>
             </div>
+            <br>
+            <br>
+            <hr class="featurette-divider">
+            <br>
             <div class="container marketing">
                 <div class="row let">
                     <div class="col-lg-4">
@@ -101,7 +118,7 @@ echo'Somos'
                         </p>
                     </div>
                     <div class="col-lg-4">
-                        <img class="img-circle" src="img/vision.JPG" alt="Generic placeholder image" width="160" height="160">
+                        <img class="img-circle" src="img/val2.jpg" alt="Generic placeholder image" width="160" height="160">
                     </div>
                     <div class="col-lg-4"> 
                         <p class="letra">

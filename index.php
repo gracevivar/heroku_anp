@@ -41,10 +41,10 @@ else
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                             </button>
-                            <a class="navbar-brand" href="index.php">INICIO</a>
+                            <a class="navbar-brand ref" href="index.php" >INICIO</a>
                         </div>
                         <div id="navbar" class="navbar-collapse collapse">
-                            <ul class="nav navbar-nav">
+                            <ul class="nav navbar-nav ref">
                                 <li><a href="quienes.php">Quienes Somos</a></li>
                                 <li><a href="catalogo.php">Catalogo</a></li>
                                 <li><a href="login.php">Comprar</a></li>

@@ -21,5 +21,14 @@ body{
 }
 .letra{
     color: #FFF;
-    font-style: oblique;
+    font-family: cursive;
+}
+.tit{
+    color: #FFF;
+    font-family: fantasy;
+    font-size: xx-large;
+}
+.ref{
+   background-color: #255625;
+    color: #FFF;  
 }
