@@ -9,10 +9,10 @@ $db = "heroku_5da25e9f877d6fc";
 $conexion = mysql_connect($server, $username,$password);
 mysql_select_db($db,$conexion);
 session_start();
-if ($conexion->connect_error)
-    die($conexion->connect_error);
-else
-    echo 'Conexion exitosa' . '<br>' . '<br>';
+//if ($conexion->connect_error)
+//    die($conexion->connect_error);
+//else
+//    echo 'Conexion exitosa' . '<br>' . '<br>';
 
 $usu = addslashes($_POST['usuario']);
 $pass = addslashes($_POST['contrasena']);
