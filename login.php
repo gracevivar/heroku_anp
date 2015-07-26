@@ -5,15 +5,12 @@ $server = "us-cdbr-iron-east-02.cleardb.net";
 $username = "b67c482eab4854";
 $password = "c79d499e";
 $db = "heroku_5da25e9f877d6fc";
-$conexion = mysql_connect($server, $username,$password);
-mysql_select_db($db,$conexion);
+$conn = new mysqli($server, $username, $password, $db);
+if ($conn->connect_error)
+    die($conn->connect_error);
+else
+    echo 'Conexion exitosa' . '<br>' . '<br>';
 session_start();
-//$conn = new mysqli($server, $username, $password, $db);
-//if ($conn->connect_error)
-//    die($conn->connect_error);
-//else
-//    echo 'Conexion exitosa' . '<br>' . '<br>';
-//session_start();
 if (isset($_SESSION['usuario']) == true and isset($_SESSION['perfil']) == true) {
 
     if ($_SESSION['perfil'] == 'administrador') {
