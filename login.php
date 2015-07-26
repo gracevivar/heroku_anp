@@ -11,17 +11,17 @@ echo'Login'
             <h2>Inicie Sesion</h2>
             <label>Ingrese usuario</label>
             <br>
-            <input type="text" id="usu"/>
+            <input type="text" id="usuario" name="usuario"/>
             <br>
             <br>
             <label>Ingrese su contraseña</label>
             <br>
-            <input type="password" id='pass'/>
+            <input type="password" id='contraseña' name="contraseña"/>
             <br>
             <br>
             <label>Elija tipo de perfil</label>
             <br>
-            <select id='perfil'>
+            <select id='perfil' name="perfil">
                 <option value="1">Empleado</option>
                 <option value="2">Administrador</option>
                 <option value="3">Cliente</option>

@@ -1,93 +1,40 @@
-//$(document).ready(function() {
-//    $("#modal").on("hidden.bs.modal", function(ev) {
-//        $("#modal")[0].reset();
-//    });
-//    $("#modal").validate({
-//        rules: {
-//            nombre: {
-//                required: true,
-//                minlength: 2,
-//                maxlength: 10
-//            },
-//            email: {
-//                required: true,
-//                email: true
-//            },
-//            mensajes: {
-//                required: true,
-//                minlength: 5,
-//                maxlength: 100
-//            },
-//             noticias: {
-//                    required: true
-//                }
-//        },
-//        messages: {
-//            nombre: {
-//                required: "Campo obligatorio",
-//                minlength: "El nombre debe contener 'más de 2 caracteres",
-//                maxlength: "El nombre no debe contener más de 5 caracteres"
-//            },
-//            mensajes: {
-//                required: "Campo obligatorio",
-//                minlength: "El mensaje debe contener más de 5 caracteres",
-//                maxlength: "El mensaje no debe contener más de 100 caracteres"
-//            },
-//            noticias: {
-//                    required: "Seleccione una categoria por favor"
-//            }
-//        }
-//    })
-////implemeto del aJax
-//    $("#save").on("click", function(ev) {
-//        ev.preventDefault();
-//        if ($("#modal").valid()) {
-//            $.ajax({
-//                url: 'rpc/rpc.php',
-//                type: 'POST',
-//                data: {
-//                    nombre: $("#nombre").val(),
-//                    email: $("#email").val(),
-//                    telefono: $("#mensajes").val(),
-//                    noticias: $("#noticias").val()
-//                }
-//            })
-//                    .done(function(msg) {
-//                $("#mensaje2").html(msg);
-//            })
-//                    .fail(function(jHttp, textStatus, errorThrown) {
-//                $("#mensaje2").html("Error: " + textStatus + ". " + errorThrown);
-//            })
-//                    .always(function() {
-//                $("#modal")[0].reset();
-//                console.log("complete");
-//            });
-//        }
-//    });
-//});
-//
-
-//$(document).ready(function ()
-//{
-//
-//    $("#btn").on("click", function (ev) {
-//        ev.preventDefault();
-//        $.ajax({
-//            url: 'rpc/rpc.php',
-//            type: 'post',
-//            data: {
-//                nombre: $("#nombre").val()
-//            },
-//        })
-//                .done(function (msg) {
-//                    $("#mensaje").html(msg);
-//                })
-//                .fail(function (jHttp, textStatus, errorThrown) {
-//                    $("#mensaje").html("Error: " + textStatus + "." + errorThrown);
-//                })
-//                .always(function () {
-//                    console.log("complete");
-//                });
-//    })
-//});
-
+$(function(){
+    
+    $('#ingresar').on('click',function(){
+        var usu = $('#usuario').val();
+        var pass = $('#contrasena').val();
+        var area = $('#perfil').val();
+        var url = 'val_Usuario.php';
+        var total = usu.length * pass.length * area.length;
+        if (total>0){
+            $.ajax({
+                type: 'POST',
+                url: url,
+                data: 'usuario='+usu+'&contrasena='+pass+'&perfil='+area,
+                success: function(valor){
+                    if(valor == 'usuario'){
+                        $('#mensaje').html('El usuario ingresado no existe').show(300).delay(3000).hide(300);
+                        $('#usuario').focus();
+                        return false;
+                    }else if(valor == 'area'){
+                        $('#mensaje').html('Usted no pertenece al area seleccionada').show(300).delay(3000).hide(300);
+                        $('#perfil').focus();
+                        return false;
+                    }else if(valor == 'password'){
+                        $('#mensaje').html('Su password es incorrecto').show(300).delay(3000).hide(300);
+                        $('#contrasena').focus();
+                        return false;
+                    }else if(valor == 'Administrador'){
+                        document.location.href = 'registro.php';
+                    }else if(valor == 'Cliente'){
+                        document.location.href = 'compras.php';
+                    }
+                }
+            });
+            return false;
+        }else{
+            $('#mensaje').html('Complete todos los campos').show(300).delay(3000).hide(300);
+        }
+    });
+    
+});
