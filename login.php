@@ -30,7 +30,7 @@ if (isset($_SESSION['usuario']) == true and isset($_SESSION['perfil']) == true) 
         <link rel="stylesheet" type="text/css" href="css/estilos.css">
     </head>
     <body>
-        <div id="caja">
+        <div id="logina">
             <center><h1>Login</h1></center>
             <form id="form">
 
@@ -44,7 +44,7 @@ if (isset($_SESSION['usuario']) == true and isset($_SESSION['perfil']) == true) 
                     </select></center>
                 <br>
                 <center><input type="button" id="ingresar" value="Iniciar Sesión"></center>
-                <div id="mensaje"></div>
+                <center><div id="mensaje"></div></center>
             </form>
         </div>
 
