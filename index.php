@@ -43,7 +43,7 @@ else
                             </button>
                             <a class="navbar-brand ref" href="index.php" >INICIO</a>
                         </div>
-                        <div id="navbar" class="navbar-collapse collapse">
+                        <div id="navbar" class="navbar-collapse collapse ref">
                             <ul class="nav navbar-nav ref">
                                 <li><a href="quienes.php">Quienes Somos</a></li>
                                 <li><a href="catalogo.php">Catalogo</a></li>
