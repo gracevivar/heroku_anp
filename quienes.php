@@ -14,11 +14,11 @@ echo'Somos'
         <link href="css/estilos.css" rel="stylesheet">
     </head>
     <body>
-        <h1><center>Farmaxis</center></h1>
+        <h1 class="letra"><center>Farmaxis</center></h1>
         <div class="container marketing">
             <div class="row let">
                 <div class="col-lg-6">
-                    <p>
+                    <p class="letra">
                     <h2>Misión</h2>
                     <br><br>Somos una Cadena de Farmacias que satisface las necesidades 
                     <br>de nuestros clientes ofreciendo medicamentos, productos y 
@@ -27,7 +27,7 @@ echo'Somos'
                     </p>  
                 </div>
                 <div class="col-lg-6">
-                    <img class="img-circle" src="img/mision.JPG" alt="Generic placeholder image" width="140" height="140">
+                    <img class="img-circle" src="img/mision.JPG" alt="Generic placeholder image" width="240" height="240">
                 </div>
             </div>
         </div>
@@ -35,62 +35,85 @@ echo'Somos'
             <div class="container marketing">
                 <div class="row let">
                     <div class="col-lg-6">
-                        <p>
+                        <p class="letra">
                         <h2>Vision</h2>
                         <br>Seremos la cadena de farmacias que ofrece la mejor experiencia de compra en farmacia.
                         </p>
                     </div> 
                     <div class="col-lg-6">
-                        <img class="img-circle" src="img/vision.JPG" alt="Generic placeholder image" width="140" height="140">
+                        <img class="img-circle" src="img/vision.JPG" alt="Generic placeholder image" width="240" height="240">
                     </div>
                 </div>
             </div>
         </div>
         <div>
-            <p>
-            <h2>Valores</h2>
-            <br>En Farmaxis nos preocupamos por cuidar tu salud y la de tu 
-            <br>familia.Nuestro compromiso es cumplir nuestra promesa de valor 
-            <br>"Me Cuida" ofreciéndote siempre la mejor atención y asesoría,
-            <br>poniendo a tu alcance la mayor variedad de productos con los mejores precios.
-            </p>
+            <div class="container marketing">
+                <div class="row let">
+                    <div class="col-lg-6">
+                        <p class="letra">
+                        <h2>Valores</h2>
+                        <br>En Farmaxis nos preocupamos por cuidar tu salud y la de tu 
+                        <br>familia.Nuestro compromiso es cumplir nuestra promesa de valor 
+                        <br>"Me Cuida" ofreciéndote siempre la mejor atención y asesoría,
+                        <br>poniendo a tu alcance la mayor variedad de productos con los mejores precios.
+                        </p>
+                    </div>
+                    <div class="col-lg-6">
+                        <img class="img-circle" src="img/vision.JPG" alt="Generic placeholder image" width="240" height="240">
+                    </div>
+                </div>
+            </div>
         </div>
         <div>
-
-            <p>
-            <h3>Confianza</h3>
-            <br>Es saber que hay alguien que
-            <br>se preocupa por mí y me
-            <br>asesora con responsabilidad
-            <br>y amabilidad.
-            </p>
-        </div>
-        <div>
-            <p>
-            <h3>AHORRO</h3>
-            <br>Es saber que todo lo que
-            <br>necesito está al alcance de
-            <br>mi bolsillo.
-            </p>
-        </div>
-        <div>
-            <p>
-            <h3>CERCANIA</h3>
-            <br>Es saber que tengo a la 
-            <br>mano una de las más de 700 
-            <br>farmacias en todo el 
-            <br>Ecuador.
-            </p>
-        </div>
-        <div>
-            <p>
-            <h3>VARIEDAD</h3>
-            <br>Es saber que encuentro la 
-            <br>receta completa y productos 
-            <br>para la higiene y belleza de 
-            <br>mi familia.
-            </p>
-        </div>
-        <a href="index.php">Regresar</a>
+            <div class="container marketing">
+                <div class="row let">
+                    <div class="col-lg-4">
+                        <p class="letra">
+                        <h3>Confianza</h3>
+                        <br>Es saber que hay alguien que
+                        <br>se preocupa por mí y me
+                        <br>asesora con responsabilidad
+                        <br>y amabilidad.
+                        </p>
+                    </div>
+                    <div class="col-lg-4">
+                        <img class="img-circle" src="img/vision.JPG" alt="Generic placeholder image" width="160" height="160">
+                    </div>
+                    <div class="col-lg-4">
+                        <p class="letra">
+                        <h3 >AHORRO</h3>
+                        <br>Es saber que todo lo que
+                        <br>necesito está al alcance de
+                        <br>mi bolsillo.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="container marketing">
+                <div class="row let">
+                    <div class="col-lg-4">
+                        <p class="letra">
+                        <h3>CERCANIA</h3>
+                        <br>Es saber que tengo a la 
+                        <br>mano una de las más de 700 
+                        <br>farmacias en todo el 
+                        <br>Ecuador.
+                        </p>
+                    </div>
+                    <div class="col-lg-4">
+                        <img class="img-circle" src="img/vision.JPG" alt="Generic placeholder image" width="160" height="160">
+                    </div>
+                    <div class="col-lg-4"> 
+                        <p class="letra">
+                        <h3>VARIEDAD</h3>
+                        <br>Es saber que encuentro la 
+                        <br>receta completa y productos 
+                        <br>para la higiene y belleza de 
+                        <br>mi familia.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <a href="index.php" class="letra">Regresar</a>
     </body>
 </html>

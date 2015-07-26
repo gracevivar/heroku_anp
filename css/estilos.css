@@ -19,3 +19,7 @@ body{
 .let{
     color: #FFF;
 }
+.letra{
+    color: #FFF;
+    font-style: oblique;
+}
