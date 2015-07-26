@@ -24,9 +24,9 @@ $(function(){
                         $('#mensaje').html('Su password es incorrecto').show(300).delay(3000).hide(300);
                         $('#contrasena').focus();
                         return false;
-                    }else if(valor == 'Administrador'){
+                    }else if(valor == 'administrador'){
                         document.location.href = 'registro.php';
-                    }else if(valor == 'Cliente'){
+                    }else if(valor == 'cliente'){
                         document.location.href = 'compras.php';
                     }
                 }
